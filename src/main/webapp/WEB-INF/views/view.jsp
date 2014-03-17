@@ -93,7 +93,7 @@
                 var url = $(this).attr('href');
                 bootbox.confirm("Are you sure?", function(confirmed) {
                     if (confirmed) {
-                        window.open(url);
+                        window.open(url,'_self');
                     }
                 });
             });
